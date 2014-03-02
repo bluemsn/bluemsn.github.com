@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            松鹤
+tagline:          'javascript'
+description:      '前端小站记录自己的学习心得'
+url:              http://hyde.getpoole.com
+
+author:
+  name:           '松鹤'
+  url:            https://twitter.com/basemoz
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/bluemsn
