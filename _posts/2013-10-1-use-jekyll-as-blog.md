@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用jeklly搭建自己的blog
+tag: jekyll
 ---
 
 
@@ -154,7 +155,9 @@ _plugins/more.rb:
 
 
 
-参考资料
+参考资料:
+
+[http://www.zhanxin.info/jekyll/2013-08-07-jekyll-configuration.html](http://www.zhanxin.info/jekyll/2013-08-07-jekyll-configuration.html)
 
 [http://jolestar.com/use-jekyll-as-blog/](http://jolestar.com/use-jekyll-as-blog/)
 
