@@ -1,9 +1,11 @@
 # Dependencies
+
 markdown:         redcarpet
 pygments:         true
-
+exclude: ['Rakefile', 'README.markdown', 'config.rb']
 # Permalinks
-permalink:        pretty
+#permalink:        pretty
+permalink: /:year/:month/:title/
 
 # Setup
 title:            松鹤

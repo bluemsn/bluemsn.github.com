@@ -14,6 +14,7 @@ category: blog
 Grunt的社区壮大非常快，现在支持的模块有：[CoffeeScript][1]、 [handlerbars][2]、 [jade][3]、 [JSHint][4]、 [Less][5]、 [RequireJS][6]、 [Sass][7]、 [stylus][8]等。
 
 ##Grunt基本配置
+<!--more-->
 
 Grunt及其插件都是用[npm][npm]管理的，npm是[Node.js][node]的包管理程序，所以在使用Grunt之前，你需要先安装NodeJS。
 
