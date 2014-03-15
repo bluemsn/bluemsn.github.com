@@ -400,3 +400,6 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+.post img{
+   max-width:100%;
+}
