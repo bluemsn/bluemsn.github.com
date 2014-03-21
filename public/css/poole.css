@@ -169,8 +169,7 @@ pre {
   word-wrap: break-word;
   background-color: #f9f9f9;
 
-  box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
-  border-radius: 2px;
+
 }
 pre code {
   padding: 0;
@@ -182,8 +181,13 @@ pre code {
   margin-bottom: 1rem;
   border-radius: 4px;
 }
-.highlight pre {
+.highlight>pre {
   margin-bottom: 0;
+  box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  border-radius: 2px;
+}
+.gist .highlight{
+  font-size: 14px;
 }
 
 /* Quotes */
