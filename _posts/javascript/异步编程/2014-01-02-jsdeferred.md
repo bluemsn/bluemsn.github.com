@@ -2,8 +2,10 @@
 layout: post
 title: JavaScript 异步编程 之 jsDeferred库 源码分析
 description:
-category: deferred,Promise,jsDeferred
+category: javascript
+tag:  [deferred,Promise,jsDeferred]
 ---
+
 转载请注明出处-[本文链接](/2014/01/jsdeferred/)
 
 [jsDeferred][jsDeferred] 一个构思非常惊人的异步流程控制库，发出来分享下

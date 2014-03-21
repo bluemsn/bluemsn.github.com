@@ -2,7 +2,7 @@
 layout: post
 title: Grunt.js 在前端项目中的实战
 description: 在前端发展越来越需要工具的今天，Grunt.js这样的任务管理工具必不可少，一些流行的前端项目，也早已经用上了这个强大的工具，为项目的发布提供了不少方便，感谢这些牛人们做出的伟大贡献，如何在自己的项目中使用，就是这篇blog要研究的问题。
-category: blog
+category: grunt
 ---
 
 ##Grunt是什么？

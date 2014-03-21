@@ -2,7 +2,8 @@
 layout: post
 title:  jQuery 之deferred 分析［转］
 description:
-category: deferred,Promise,jquery
+category: jquery
+tag: [deferred,Promise,jquery]
 ---
 原文：http://www.cnblogs.com/aaronjs/p/3356505.html
 ###构建Deferred对象时候的流程图
@@ -434,6 +435,7 @@ deferred.then( doneFilter  [, failFilter ] [, progressFilter ] )
 then: function( /* fnDone, fnFail, fnProgress */ ) {
     var fns = arguments;
     //分别为deferred的三个callbacklist添加回调函数，根据fn的是否是函数，分为两种情况
+    //jQuery.Deferred(fn).promise() //fn即里面的函数
     return jQuery.Deferred(function( newDefer ) {
         jQuery.each( tuples, function( i, tuple ) {
             var action = tuple[ 0 ],

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用jeklly搭建自己的blog
-tag: jekyll
+tag: [jekyll]
 ---
 
 
