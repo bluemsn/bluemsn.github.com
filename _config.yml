@@ -5,7 +5,7 @@ pygments:         true
 exclude: ['Rakefile', 'README.markdown', 'config.rb']
 # Permalinks
 #permalink:        pretty
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:day/:title/
 
 # Setup
 title:            松鹤
